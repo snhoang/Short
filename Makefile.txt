@@ -1,0 +1,7 @@
+main: ShortMain.o Short.o
+	g++ -pedantic ShortMain.o Short.o -o main
+ShortMain.o: ShortMain.cpp  Short.o
+	g++ -Wall -pedantic ShortMain.cpp -c
+Short.o: Short.cpp Short.h
+	g++ -Wall -pedantic Short.cpp -c
+

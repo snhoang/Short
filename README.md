@@ -1,5 +1,5 @@
 ## Project 2
-#Short assignment
+#Short 
 Please note, you are required to include the following when you use g++ to compile: -pedantic
 
            For example:
@@ -72,7 +72,7 @@ public:
 
  
 
-Well-formed – For this assignment, we will define output to be “well-formed” if it satisfies one of the following requirements:
+Well-formed – we will define output to be “well-formed” if it satisfies one of the following requirements:
 
 Contains three, two, or one base-ten symbols[1] and nothing else
 Meets the first requirement and begins with the minus sign‘-’
